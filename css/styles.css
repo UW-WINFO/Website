@@ -1,0 +1,279 @@
+body {
+    font-family: 'Lato', "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 70px;
+    background-color: #f7f7f7;
+}
+
+h1{
+    color: #fff;
+}
+
+.display-4 {
+    font-family: 'Satisfy';
+}
+
+h2 {
+    font-family: 'Montserrat';
+    color: #fd9192;
+}
+
+h3, #events h1, #events h5 {
+    color:#af8bcd;
+    font-family: 'Lato';
+}
+
+h5 {
+    margin: 0;
+}
+
+h4 {
+    color: #666666;
+}
+
+#informatics h2,
+#contact h2,
+#thanks h2 {
+    color: #fd9192;
+
+}  
+
+header p {
+    font-family: 'Open Sans';
+    color:#af8bcd
+}
+
+p {
+    font-family: 'Open Sans';
+    color: #666666;
+}
+
+.btn {
+    background-color: #8191d1;
+}
+
+.btn:hover {
+    background-color:#fd9192;
+}
+
+#nav,
+#email {
+    color: #8191d1;
+}
+
+#about {
+    color: #fd9192;
+}
+
+#contact-us {
+    background-color: #fd9192;
+}
+
+
+.navbar {
+    background-color: #fcfcfc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav:hover,
+#email:hover {
+    color:#fd9192;
+}
+
+i{
+    color: #8191d1;
+}
+
+i:hover {
+    color: #fd9192;
+}
+
+.nav-item {
+    text-align: middle;
+}
+
+.carousel-inner {
+    margin: 0 auto;
+    float: none;
+}
+
+#carousel-caption{
+    background-color: rgba(0,0,0,.5);
+}
+
+#informatics {
+    background-color: #fff;
+
+}
+
+#mission {
+    background-color: #fff;
+
+}
+
+.st0 {
+    fill: #8191d1;
+}
+
+.st0:hover {
+    fill:#fd9192;
+}
+
+#social{
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #666666;
+}
+
+small {
+    color: #939393;
+}
+
+#current-officers img {
+    max-width: 150px;
+}
+
+#current-officers {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #fcfcfc;
+    width:100%;   /* Height of the footer */
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+header, #calendar{
+    position: relative;
+    text-align: center;
+}
+
+a {
+    color: #8191d1;
+}
+
+a:hover {
+    color:#fd9192;
+    text-decoration: none;
+}
+
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link {
+    color: #8191d1;
+}
+
+.nav-link:hover {
+    color: #fd9192;
+}
+
+#navbarDropdownMenuLink {
+    color: #8191d1;
+}
+
+header {
+    background-color: #fcfcfc; 
+    padding-top: 100px;
+    height: 17rem;
+}
+
+#UW-sm-text h1 {
+    font-family: 'Satisfy';
+    color: #af8bcd;
+    font-size: 45px;
+}
+
+#UW-text {
+    visibility: hidden;
+}
+
+img {
+    max-width: 300px;
+}
+
+#officer-row img{
+    max-width: 100px;
+}
+
+#officer-row2 img {
+    max-width: 100px;
+}
+
+@media (min-width: 768px) {
+    header {
+        background-image: url(../img/SunnyQuad.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px
+    }
+
+    #UW-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        visibility: visible;
+    }
+
+    #UW-logo {
+        max-width: 400px;
+    }
+
+    #UW-sm-text {
+        visibility: hidden;
+    }
+
+    img {
+        max-width: 300px;
+    }
+
+    #officer-row img {
+        max-width: 150px;
+    }
+    #officer-row2 img {
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    img {
+        max-width: 400px;
+    }
+
+    #officer-row {
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+    
+    #officer-row2 {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+}
+header,
+#events,
+#years {
+    z-index: -1;
+}
+.btn{
+    border:0px solid transparent; /* this was 1px earlier */
+}
+
+#facebook {
+    margin: auto;
+}
+
