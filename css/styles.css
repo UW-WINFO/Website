@@ -149,6 +149,10 @@ footer {
     text-align: center;
 }
 
+.logo img {
+   max-width: none; 
+}
+
 html {
     height: 100%;
     box-sizing: border-box;
