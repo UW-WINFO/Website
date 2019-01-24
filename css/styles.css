@@ -146,7 +146,7 @@ small {
 footer {
     background-color: #fcfcfc;
     width:100%;   /* Height of the footer */
-    text-align: center;
+    /* text-align: center; */
 }
 
 .logo img {

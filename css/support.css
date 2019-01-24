@@ -79,3 +79,7 @@ a {
 .navbar-collapse {
     flex-grow: 0;
 }
+
+.d-block {
+    margin-right: 0;
+}
