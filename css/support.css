@@ -16,7 +16,8 @@ a {
 }
 
 #sponsor h1, 
-#sponsor h4{
+#sponsor h4,
+#sponsorship-levels h1{
     color: #fd9192;
     font-family: 'Montserrat';
 }
@@ -25,7 +26,7 @@ a {
     color:#666666;
 }
 
-#sponsor {
+#sponsor, #kinds {
     background-color: #fff;
 }
 

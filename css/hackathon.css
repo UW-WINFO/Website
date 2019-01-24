@@ -80,7 +80,7 @@ p {
 }
 
 #hackathon-7-sponsors img{
-    max-width: 100px;
+    max-width: 110px;
     max-height: 75px;
     padding: 10px;
 }
@@ -90,8 +90,18 @@ p {
     padding-top: 10px;
 }
 
+#hackathon-6-sponsors img {
+    max-width: 10%;
+    max-height: 10%;
+    padding: 10px;
+}
+
 .carousel {
     margin-bottom: 10px;
+}
+
+#intro {
+    background: #fff;
 }
 
 @media (min-width: 375px) {
