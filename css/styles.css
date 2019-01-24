@@ -217,7 +217,7 @@ img {
 
 @media (min-width: 376px) {
     footer {
-        text-align: left;
+        text-align: left; 
     }
 }
 
