@@ -15,6 +15,10 @@ a {
     font-family: 'Open Sans';
 }
 
+#sponsorship-levels h6 {
+    color: #8191d1;
+}
+
 #sponsor h1, 
 #sponsor h4,
 #sponsorship-levels h1{
@@ -26,7 +30,7 @@ a {
     color:#666666;
 }
 
-#sponsor, #kinds {
+#sponsor, #kinds, #questions {
     background-color: #fff;
 }
 
@@ -60,10 +64,6 @@ a {
 .p {
     font-size: 15px;
     line-height: 1.6;
-}
-
-#kinds, #questions {
-    background-color: #f7f7f7
 }
 
 #support{

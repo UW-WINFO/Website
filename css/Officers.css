@@ -79,6 +79,29 @@ small {
     color: #fd9192;
 }
 
+header {
+    z-index: -1;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#navbarDropdownMenuLink {
+    color: #8191d1;
+}
+
+footer {
+    background-color: #fcfcfc;
+    width:100%; 
+    text-align: center;
+}
+
+@media (min-width: 376px) {
+   footer {
+       text-align: left;
+   }
+}
 
 @media (min-width: 768px) {
     #officer-row img {
@@ -113,22 +136,4 @@ small {
         margin-right: 150px;
         margin-left: 150px;
     }
-}
-
-header {
-    z-index: -1;
-}
-
-.navbar-collapse {
-    flex-grow: 0;
-}
-
-#navbarDropdownMenuLink {
-    color: #8191d1;
-}
-
-footer {
-    background-color: #fcfcfc;
-    width:100%; 
-    text-align: center;
 }
