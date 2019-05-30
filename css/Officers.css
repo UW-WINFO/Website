@@ -29,7 +29,7 @@ h5 {
 }
 
 .navbar {
-    background-color: #fcfcfc;
+    background-color: #fff;
     position: fixed;
     left: 0;
     top: 0;
@@ -41,7 +41,19 @@ h5 {
     color:#fd9192;
 }
 
+/* #current {
+    background-color: #e0e0e0;
+} */
+
+#o2018-19 {
+    background-color: #fff;
+}
+
 #o2017-18 {
+    background-color: #f7f7f7;
+}
+
+#o2016-17 {
     background-color: #fff;
 }
 
