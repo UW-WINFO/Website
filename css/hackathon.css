@@ -38,6 +38,20 @@ p {
     background-color:#fd9192;
 }
 
+#register{
+    border:5px solid transparent; /* this was 1px earlier */
+    padding-right : 50px;
+    padding-left : 50px;
+    /* padding-top: 50px; */
+}
+
+#date {
+    font-family: 'Open Sans';
+    color: #666666;
+    padding-bottom: 5%;
+    padding-top: 0;
+}
+
 #nav {
     color: #8191d1;
 }
@@ -59,8 +73,8 @@ p {
 }
 
 .carousel-inner {
-    margin: 0 auto;
-    float: none;
+    margin: auto;
+    float: center;
 }
 
 #carousel-caption{
@@ -75,19 +89,20 @@ p {
     padding-top: 1rem;
 }
 
-#hackathon6, #hackathon4 {
+#hackathon7, #hackathon5, #schedule {
     background-color: #fff;
 }
 
 #hackathon-7-sponsors img{
     max-width: 110px;
     max-height: 75px;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 5%;
 }
 
 #hackathon-7-sponsors {
     display: flex;
-    padding-top: 10px;
+    padding-top: 5%;
 }
 
 #hackathon-6-sponsors img {
@@ -102,6 +117,7 @@ p {
 
 #intro {
     background: #fff;
+    padding-top: 10px;
 }
 
 @media (min-width: 375px) {
