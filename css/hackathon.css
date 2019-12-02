@@ -120,6 +120,10 @@ p {
     padding-top: 10px;
 }
 
+#q {
+    padding-bottom: 30px;
+}
+
 @media (min-width: 375px) {
     max-width: 150px;
 }
