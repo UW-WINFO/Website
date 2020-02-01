@@ -288,3 +288,19 @@ header,
     margin: auto;
 }
 
+.btn {
+    background-color: #8191d1;
+}
+
+.btn:hover {
+    background-color:#fd9192;
+}
+
+#register{
+    border:5px solid transparent; /* this was 1px earlier */
+    padding-right : 50px;
+    padding-left : 50px;
+    /* padding-top: 50px; */
+}
+
+
