@@ -41,9 +41,13 @@ h5 {
     color:#fd9192;
 }
 
-/* #current {
-    background-color: #e0e0e0;
-} */
+#current {
+    background-color: #fff;
+}
+
+#o2019-20 {
+    background-color: #f7f7f7;
+}
 
 #o2018-19 {
     background-color: #fff;
@@ -105,7 +109,7 @@ header {
 
 footer {
     background-color: #fcfcfc;
-    width:100%; 
+    width:100%;
     text-align: center;
 }
 
@@ -127,11 +131,11 @@ footer {
         color: #8191d1;
         visibility: visible;
     }
-    
+
     #years a:hover {
         color:#fd9192;
     }
-    
+
 }
 
 @media (min-width: 992px) {
@@ -143,7 +147,7 @@ footer {
         margin-right: 300px;
         margin-left: 300px;
     }
-    
+
     #officer-row2 {
         margin-right: 150px;
         margin-left: 150px;
