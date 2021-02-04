@@ -264,6 +264,10 @@ img {
         max-width: 400px;
     }
 
+    #hackathon-9-img img {
+        max-width: 300px;
+    }
+
     #officer-row {
         margin-right: 300px;
         margin-left: 300px;
