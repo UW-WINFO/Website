@@ -125,10 +125,12 @@ footer {
 
 @media (min-width: 768px) {
     #officer-row img {
-        max-width: 150px;
+        width: 150px;
+        height: 150px;
     }
     #officer-row2 img {
-        max-width: 150px;
+        width: 150px;
+        height: 150px;
     }
 
     #years a {

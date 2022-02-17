@@ -214,7 +214,8 @@ img {
 }
 
 #officer-row2 img {
-    max-width: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 @media (min-width: 376px) {
@@ -252,10 +253,12 @@ img {
     }
 
     #officer-row img {
-        max-width: 150px;
+        width: 150px;
+        height: 150px;
     }
     #officer-row2 img {
-        max-width: 150px;
+        width: 150px;
+        height: 150px;
     }
 }
 
