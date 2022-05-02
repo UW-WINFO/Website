@@ -30,6 +30,12 @@ p {
     color: #666666;
 }
 
+ul {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: #666666;
+}
+
 .btn {
     background-color: #8191d1;
 }
@@ -38,6 +44,11 @@ p {
     background-color:#fd9192;
 }
 
+.blockquote {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-style: italic;
+}
 #register{
     border:5px solid transparent; /* this was 1px earlier */
     padding-right : 50px;
@@ -47,8 +58,10 @@ p {
 
 #date {
     font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 1.35rem;
     color: #666666;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     padding-top: 0;
 }
 
@@ -128,3 +141,37 @@ p {
     max-width: 150px;
 }
 
+/* Carousel */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #fd9192;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #fd9192;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #666666;
+}
+.carousel .carousel-indicators li.active {
+    background-color: #fd9192;
+}
+
+.carousel {
+    height:360px;
+  }
