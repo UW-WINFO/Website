@@ -36,6 +36,10 @@ ul {
     color: #666666;
 }
 
+.emphasis {
+    color:#fd9192;
+}
+
 .btn {
     background-color: #8191d1;
 }
@@ -174,4 +178,4 @@ ul {
 
 .carousel {
     height:360px;
-  }
+}
