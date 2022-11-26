@@ -1,0 +1,268 @@
+/* ____ General Styling _____ */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Text styling for body and headers */
+body {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    padding-bottom: .4rem;
+    color: #5D436F;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 550;
+    color: #9499e8;
+}
+
+h4 {
+    font-size: large;
+    font-weight: 450;
+}
+
+a {
+    color: #eb5f9e;
+}
+
+a:hover {
+    color: #7167cb;
+}
+
+/* Collapsibles */
+.collapsible {
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    padding-left: 0;
+}
+
+.collapsible:hover {
+    background-color: #906fbf;
+}
+
+.collapsible-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.med-up {
+    display: none;
+}
+
+/* Navbar */
+.navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    background-color: #c6c1f9;
+}
+
+.navbar-brand {
+    margin-left: 3rem;
+    font-size: x-large;
+}
+
+.navbar-brand img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+.navbar-nav {
+    font-size: large;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+.navbar-collapse {
+    padding-left: 2rem;
+}
+
+/* Footer */
+.footer {
+    margin-top: 1rem;
+}
+
+.winfo-logo {
+    width: 90%;
+}
+
+.social-media-row,
+.footer-col {
+    margin-top: 1rem;
+}
+
+.social-media {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.logo-col {
+    margin-top: 2.5rem;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: smaller;
+}
+
+/* Jumbotron */
+.jumbotron h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.jumbotron {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #FBD9EE;
+    background-position: center;
+    margin-bottom: .5rem;
+    background-repeat: no-repeat;
+}
+
+/*  About page styling  */
+.main-sections {
+    padding-bottom: 1rem;
+}
+
+.menu-subtitle {
+    font-size: large;
+}
+
+.intro {
+    font-size: 1.75rem;
+}
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.no-small {
+    display: none;
+}
+
+.logo-img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.main-logo {
+    width: 100%;
+}
+
+/* People page */
+.judge-name {
+    margin-bottom: 0;
+}
+
+/* Sponsor company names */
+.sponsor-name {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 240px;
+    font-size: 1rem;
+}
+
+/* Colors for sponsor types */
+.hub-room {
+    background-color: #906fbf;
+    color: #ffffff;
+}
+
+.diamond {
+    background-color: #7167cb;
+    color: #ffffff;
+}
+
+.platinum {
+    background-color: #e5e4e2;
+}
+
+.gold {
+    background-color: #FFD700;
+}
+
+.silver {
+    background-color: #C0C0C0;
+}
+
+.bronze {
+    background-color: #CD7F32;
+}
+
+/* Prize page */
+.prize-image {
+    width: 100%;
+}
+
+/* -------- Responsive Design ---------*/
+
+/* MEDIUM screens */
+@media (min-width: 768px) {
+
+    /* For main page */
+    .menu {
+        position: sticky;
+        top: 1rem;
+    }
+
+    .no-small {
+        display: flex;
+    }
+
+    .collapsible {
+        display: none;
+    }
+
+    .collapsible-content {
+        display: block;
+    }
+
+    .med-up {
+        display: block;
+    }
+
+    .colored {
+        background-color: #fbd9ee72;
+        
+    }
+}
+
+/* LARGE screens */
+@media (min-width: 992px) {
+
+    /* Home page */
+    .navbar-collapse {
+        padding-left: 0;
+    }
+}
+
+/* XL screens */
+@media (min-width: 1200px) {
+
+    /* Jumbotron background img*/
+    #main-jumbo {
+        background-image: url(../img/banner1.png);
+    }
+
+    /* Home page styling */
+    .jumbotron {
+        background-color: #ffffff;
+    }
+}
