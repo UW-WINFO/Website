@@ -93,9 +93,9 @@ header .page-title {
   margin-right: 100px;
 }
 
-#mission .description {
+/* #mission .description {
   margin-left: 100px;
-}
+} */
 
 /* Hover effects */
 .navlink:hover, .navbar-list:hover, a:hover {
@@ -422,4 +422,44 @@ button {
 
 #hackathon iframe {
   margin-top: 15px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Stack columns on smaller screens */
+  }
+
+  .col {
+    margin: 10px 0; /* Add margin between stacked columns */
+  }
+
+  .event-row {
+    flex-direction: column;
+  }
+  #events .col {
+    width: 100%; /* Make each column take full width on smaller screens */
+  }
+  
+
+  .navbar-col {
+    flex-direction: row; /* Switch to rows on smaller screens */
+  }
+
+  .navbar-list {
+    flex-direction: row;
+    width: 100%; 
+    justify-content: space-between;
+  }
+  .navbar-list p {
+    display: inline-block;
+    margin-right: 10px; /* Add spacing between items in rows */
+    margin-bottom: 0;
+  }
+  .accordion-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin-bottom: 15px;
+  }
 }

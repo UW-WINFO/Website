@@ -32,7 +32,7 @@ export function Support(props) {
       <div id='mission' className='row'>
         <div className='col description'>
           <div>
-            <p className='text-description'>Your support allows us to provide our participants with meals, refreshments, prizes, and space for an awesome hackathon. Altogether, this will create an encouraging environment for participants to work on creative projects. As a sponsor, your organization will have the opportunity to: 
+            <div className='text-description'>Your support allows us to provide our participants with meals, refreshments, prizes, and space for an awesome hackathon. Altogether, this will create an encouraging environment for participants to work on creative projects. As a sponsor, your organization will have the opportunity to: 
             <br/><br/>
             <ul>
               <li>
@@ -48,7 +48,7 @@ export function Support(props) {
               Connect women with others of passion in the realm of technology
               </li>
             </ul> 
-            </p>
+            </div>
           </div>
         </div>
         <div className='col'>
@@ -59,10 +59,54 @@ export function Support(props) {
 
       </div>
       
-      <div className='px-4'>
-            <img src="img/Sponsorship Packages.png" alt="Sponsorship Levels: Diamond contributons of $2500 or more, Platinum contributions of $2000, Gold contribution of $1000, and Silver contribution of <$1000 OR other type of donation"/>
-            <figcaption>Sponsorship Packages</figcaption>
+      <div className='container'>
+        <div className='row'>
+          <div className='col'>
+              <h3 className='purple'>Diamond</h3>
+              <h4 className='blue'>Contribution of $2500 or more</h4>
+              <ul>
+                <li>Partnership with WINFO, which could include events such as company tours, tech talks, networking lunches, and more</li>
+                <li>3-minute speech/announcement at the event kick-off</li>
+                <li>Access to resume book </li>
+                <li>Email sent to participants about company </li>
+                <li>Judging representation for event prizes </li>
+                <li>Tabling space and mentoring access at the hackathon</li>
+                <li>Logo on advertisements and program</li>
+              </ul>
+          </div>
+          <div className='col'>
+            <h3 className='purple'>Platinum</h3>
+            <h4 className='blue'>Contribution of $2000</h4>
+            <ul>
+              <li>Access to resume book</li>
+              <li>Email sent to participants about company </li>
+              <li>Judging representation for event prizes </li>
+              <li>Tabling space and mentoring access at the hackathon</li>
+              <li>Logo on advertisements and program</li>
+            </ul>
+          </div>
+        </div>
+        <br/><br/>
+        <div className='row'>
+          <div className='col'>
+            <h3 className='purple'>Gold</h3>
+            <h4 className='blue'>Contribution of $1000</h4>
+            <ul>
+              <li>Company swag distribution</li>
+              <li>Tabling space and mentoring access at the hackathon</li>
+              <li>Logo on advertisements and program</li>
+            </ul>
+          </div>
+          <div className='col'>
+            <h3 className='purple'>Silver</h3>
+            <h4 className='blue'>Contribution of less than $1000 or other kind of donation</h4>
+            <ul>
+              <li>Logo on advertisements and program</li>
+            </ul>
+          </div>
+        </div>
       </div>
+     
       
       <div className=' center big-heading'>
         <p className='pink title middle'>
@@ -72,7 +116,7 @@ export function Support(props) {
       <div className='container'>
         <div className='row'>
           <div className='col description'>
-            <p>We understand that it is not always possible to provide monetary support, so we have listed some alternative items below that are essential to the success of the hackathon.
+            <div>We understand that it is not always possible to provide monetary support, so we have listed some alternative items below that are essential to the success of the hackathon.
             <br/><br/>
             <ol>
               <li>
@@ -91,7 +135,7 @@ export function Support(props) {
               Prizes - Prizes will be used either for random giveaways or for our ranking winners. It would be great for participants to see an awesome prize for ranking in the hackathon!
               </li>
             </ol>
-           </p>
+           </div>
           </div>
         </div>
       </div>

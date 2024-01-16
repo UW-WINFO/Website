@@ -49,24 +49,27 @@ export function Home(props) {
         </div>
       </div>
 
-      <div id='mission' className='row'>
-        <div className='col description'>
-          <div>
-            <h2 className='pink section-title'>Our Mission</h2>
-            <p className='text-description'>
-              Our mission is to empower women to thrive as producers of technology by <span className='pink'>establishing and maintaining a network of
-              women who offer encouragement, support, and the ongoing knowledge needed to succeed.</span> We inspire each other to challenge
-              ourselves, achieve our goals, and work together. By providing students with resources and support towards career
-              development and academic pursuits, WINFO hopes to have a positive impact on the lives of all students at the iSchool
-              and beyond.
-            </p>
+      <div className='container'>
+        <div id='mission' className='row'>
+          <div className='col description'>
+            <div>
+              <h2 className='pink section-title'>Our Mission</h2>
+              <p className='text-description'>
+                Our mission is to empower women to thrive as producers of technology by <span className='pink'>establishing and maintaining a network of
+                women who offer encouragement, support, and the ongoing knowledge needed to succeed.</span> We inspire each other to challenge
+                ourselves, achieve our goals, and work together. By providing students with resources and support towards career
+                development and academic pursuits, WINFO hopes to have a positive impact on the lives of all students at the iSchool
+                and beyond.
+              </p>
+            </div>
+          </div>
+          <div className='col'>
+            <img src="img/8th-hackathon.jpeg" alt="WINFO's 8th Annual Hackathon"/>
+            <figcaption>WINFO's 8th Annual Hackathon</figcaption>
           </div>
         </div>
-        <div className='col'>
-          <img src="img/8th-hackathon.jpeg" alt="WINFO's 8th Annual Hackathon"/>
-          <figcaption>WINFO's 8th Annual Hackathon</figcaption>
-        </div>
       </div>
+      
 
       </div>
 
