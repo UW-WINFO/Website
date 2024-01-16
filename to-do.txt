@@ -1,5 +1,0 @@
-- add new hackathon details
-- update the officers page with new officers
-- FAQ page - How do we join winfo? What can I do to get more involved
-- past events: year in review 
-- converting to react

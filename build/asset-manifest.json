@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85b43239.css",
+    "main.js": "/static/js/main.0ac6419e.js",
+    "static/js/787.45e791c1.chunk.js": "/static/js/787.45e791c1.chunk.js",
+    "static/media/officer-banner.png": "/static/media/officer-banner.f5bab2be95f5c9c55b40.png",
+    "static/media/event-banner.png": "/static/media/event-banner.9c54eaa0b0b86be69f95.png",
+    "static/media/PastEventHeroImage.jpg": "/static/media/PastEventHeroImage.11c2692fccf707081dd2.jpg",
+    "static/media/home-banner.png": "/static/media/home-banner.0b4c625981ec5885c197.png",
+    "static/media/hackathon-banner.png": "/static/media/hackathon-banner.2b65302598b8d710560d.png",
+    "static/media/past_sponsors.png": "/static/media/past_sponsors.16a80d27d760167abaa4.png",
+    "index.html": "/index.html",
+    "main.85b43239.css.map": "/static/css/main.85b43239.css.map",
+    "main.0ac6419e.js.map": "/static/js/main.0ac6419e.js.map",
+    "787.45e791c1.chunk.js.map": "/static/js/787.45e791c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85b43239.css",
+    "static/js/main.0ac6419e.js"
+  ]
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="w-[1440px] h-[2305px] relative overflow-hidden bg-white">
+    <img
+            src="winfo-logo-1.png"
+            class="w-[141px] h-[43px] absolute left-[104px] top-[33px] object-cover"
+    />
+    <a class="w-[69px] absolute left-[685px] top-[43px] text-xl font-semibold text-center text-[#a5a5a5]" href="#">Home</a>
+
+    <a class="w-32 absolute left-[791px] top-[43px] text-xl font-semibold text-center text-[#8192d1]" href="#">Hackathon</a>
+
+    <a class="w-[76px] absolute left-[956px] top-[43px] text-xl font-semibold text-center text-[#a5a5a5]" href="#">Events</a>
+
+    <a class="w-[67px] absolute left-[1069px] top-[43px] text-xl font-semibold text-center text-[#a5a5a5]" href="#">Team</a>
+    <div class="w-[161px] h-[60px]">
+        <div class="w-[161px] h-[60px] absolute left-[1172.5px] top-[22.5px] rounded-[44px] bg-[#8192d1]"></div>
+        <a class="w-[123.85px] h-[26.25px] absolute left-[1192px] top-[39.25px] text-xl font-semibold text-center text-white" href="#">Support Us</a>
+    </div>
+    <svg
+            width="1440"
+            height="1"
+            viewBox="0 0 1440 1"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="absolute left-[-1px] top-[104px]"
+            preserveAspectRatio="xMidYMid meet"
+    >
+        <line y1="0.5" x2="1440" y2="0.5" stroke="#8C8C8C"></line>
+    </svg>
+    <div class="w-[1440px] h-[168px] absolute left-[-1px] top-[104px] bg-[#ececec]"></div>
+    <p class="absolute left-[506px] top-[164px] text-5xl font-semibold text-left text-black">
+        WINFO Hackathon
+    </p>
+    <p class="w-[490px] absolute left-[401px] top-[444px] text-base text-left text-black">
+        Women in Informatics and the iSchool community strongly believe in learning from the past,
+        in order to improve the future. In all contexts it is a strength to be able to cultivate
+        former experiences, grow from them, and take new skills onward. Bringing together our
+        diverse past experiences and backgrounds allows us to better design a future that
+        incorporates all bodies, and strives to be more inclusive. As we look around us, we examine
+        problems from various perspectives to reframe our preconceptions, build better products and
+        services, and innovate to make the world a better place.
+    </p>
+    <p class="w-[490px] absolute left-[401px] top-[1789px] text-base text-left text-black">
+        Women in Informatics and the iSchool community strongly believe in learning from the past,
+        in order to improve the future. In all contexts it is a strength to be able to cultivate
+        former experiences, grow from them, and take new skills onward. Bringing together our
+        diverse past experiences and backgrounds allows us to better design a future that
+        incorporates all bodies, and strives to be more inclusive. As we look around us, we examine
+        problems from various perspectives to reframe our preconceptions, build better products and
+        services, and innovate to make the world a better place.
+    </p>
+    <p class="w-[490px] absolute left-[845px] top-[1119px] text-base text-left text-black">
+        Women in Informatics and the iSchool community strongly believe in learning from the past,
+        in order to improve the future. In all contexts it is a strength to be able to cultivate
+        former experiences, grow from them, and take new skills onward. Bringing together our
+        diverse past experiences and backgrounds allows us to better design a future that
+        incorporates all bodies, and strives to be more inclusive. As we look around us, we examine
+        problems from various perspectives to reframe our preconceptions, build better products and
+        services, and innovate to make the world a better place.
+    </p>
+    <p class="w-[490px] absolute left-[401px] top-[745px] text-base text-left text-black">
+        <span class="w-[490px] text-base font-semibold text-left text-black">Event Breakdown</span
+        ><br /><span class="w-[490px] text-base text-left text-black">Over 190 Participants</span
+    ><br /><span class="w-[490px] text-base text-left text-black">59 Submitted Projects</span
+    ><br /><span class="w-[490px] text-base text-left text-black">9 Sponsors</span
+    ><br /><br /><span class="w-[490px] text-base text-left text-black"
+    >We thank all of the sponsors, mentors, judges, and participants who made this event
+          possible!</span
+    >
+    </p>
+    <p class="w-[490px] absolute left-[401px] top-[2090px] text-base text-left text-black">
+        <span class="w-[490px] text-base font-semibold text-left text-black">Event Breakdown</span
+        ><br /><span class="w-[490px] text-base text-left text-black">Over 190 Participants</span
+    ><br /><span class="w-[490px] text-base text-left text-black">59 Submitted Projects</span
+    ><br /><span class="w-[490px] text-base text-left text-black">9 Sponsors</span
+    ><br /><br /><span class="w-[490px] text-base text-left text-black"
+    >We thank all of the sponsors, mentors, judges, and participants who made this event
+          possible!</span
+    >
+    </p>
+    <p class="w-[490px] absolute left-[845px] top-[1420px] text-base text-left text-black">
+        <span class="w-[490px] text-base font-semibold text-left text-black">Event Breakdown</span
+        ><br /><span class="w-[490px] text-base text-left text-black">Over 190 Participants</span
+    ><br /><span class="w-[490px] text-base text-left text-black">59 Submitted Projects</span
+    ><br /><span class="w-[490px] text-base text-left text-black">9 Sponsors</span
+    ><br /><br /><span class="w-[490px] text-base text-left text-black"
+    >We thank all of the sponsors, mentors, judges, and participants who made this event
+          possible!</span
+    >
+    </p>
+    <p
+            class="w-[934px] h-20 absolute left-[401px] top-[326px] text-4xl font-semibold text-left text-[#ae8bcd]"
+    >
+        WINFO 11th Annual Hackathon: Reframe, Build, Innovate Onwards
+    </p>
+    <p
+            class="w-[934px] h-20 absolute left-[401px] top-[1672px] text-4xl font-semibold text-left text-[#ae8bcd]"
+    >
+        WINFO 11th Annual Hackathon: Reframe, Build, Innovate Onwards
+    </p>
+    <p
+            class="w-[934px] h-20 absolute left-[401px] top-[999px] text-4xl font-semibold text-left text-[#ae8bcd]"
+    >
+        WINFO 11th Annual Hackathon: Reframe, Build, Innovate Onwards
+    </p>
+    <p class="absolute left-[401px] top-[699px] text-2xl font-semibold text-left text-black">
+        More details
+    </p>
+    <p class="absolute left-[401px] top-[2044px] text-2xl font-semibold text-left text-black">
+        More details
+    </p>
+    <p class="absolute left-[845px] top-[1374px] text-2xl font-semibold text-left text-black">
+        More details
+    </p>
+    <div class="w-[379px] h-[272px] absolute left-[955px] top-[443px] bg-[#ececec]"></div>
+    <div class="w-[379px] h-[272px] absolute left-[955px] top-[1788px] bg-[#ececec]"></div>
+    <div class="w-[379px] h-[272px] absolute left-[400px] top-[1118px] bg-[#ececec]"></div>
+    <svg
+            width="934"
+            height="1"
+            viewBox="0 0 934 1"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="absolute left-[1334px] top-[952px]"
+            preserveAspectRatio="xMidYMid meet"
+    >
+        <line x1="934" y1="0.5" y2="0.5" stroke="#8C8C8C"></line></svg
+    ><svg
+        width="934"
+        height="1"
+        viewBox="0 0 934 1"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute left-[1334px] top-[1625px]"
+        preserveAspectRatio="xMidYMid meet"
+>
+    <line x1="934" y1="0.5" y2="0.5" stroke="#8C8C8C"></line>
+</svg>
+    <div class="w-[198px] h-[147px]">
+        <a href="#" class="absolute left-[105px] top-[409px] text-xl font-semibold text-left text-[#8192d1]">
+            Past Hackathons
+        </a>
+        <a href="#" class="absolute left-[105px] top-[367px] text-xl font-semibold text-left text-[#8192d1]">
+            Upcoming Hackathon
+        </a>
+        <a href="#" class="absolute left-[105px] top-[451px] text-xl font-semibold text-left text-[#8192d1]">
+            FAQ
+        </a>
+        <a href="#" class="absolute left-[105px] top-[325px] text-xl font-semibold text-left text-[#fd9193]">
+            About
+        </a>
+    </div>
+</div>
+</body>
+</html>
