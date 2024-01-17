@@ -18,7 +18,7 @@ export function HackathonUpcoming(props) {
             <p className='pink subsection-title'>Registration is full!</p>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdV94-u_acqmx62C7obeCN5AUTwGrCAXLdtDC65hHWfZxd7JQ/viewform">Join our Waitlist</a>
             <p className='pink subsection-title'>Hackathon Schedule</p>
-            <a href="https://miapham2520.github.io/winfo-hackathon-24/#/">Hackathon Website</a>
+            <a href="https://winfo-hackthon-24.vercel.app/">Hackathon Website</a>
           </div>
           <div className='col'>
             <img src="/img/hackathon-2024.png" alt="WINFO's 12th Annual Hackathon logo"/>
