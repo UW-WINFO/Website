@@ -63,7 +63,7 @@ header .page-title {
 }
 
 /* home page  */
-#informatics img, #mission img, #support-about img {
+#informatics img, #mission img, #support-about img, #past-sponsors img {
   width: 100%;
 }
 
@@ -387,6 +387,18 @@ button {
 
 #support h3 {
   font-weight: 600;
+}
+
+#past-sponsors {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#past-sponsors .row {
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* hackathon page  */

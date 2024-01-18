@@ -147,7 +147,126 @@ export function Support(props) {
 
         <div id='past-sponsors'>
           <h2 className='pink title'>Past Sponsors</h2>
-          <div className='past-sponsors'/>
+          {/* <div className='past-sponsors'/> */}
+          <div className='row'>
+            <div className='col'>
+              <img src='/img/Sponsors/Accenture.png' alt='Accenture logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Adobe.png' alt='Adobe logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Alaska.png' alt='Alaska logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/AmazonCatalyst.png' alt='Amazon Catalyst logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/ASUW.png' alt='ASUW logo'></img>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <img src='/img/Sponsors/ATT.png' alt='AT&T logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Avanade.png' alt='Avande logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/BestBuy.png' alt='Best Buy logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Deloitte.png' alt='Deloitte logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Disney.png' alt='Disney logo'></img>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <img src='/img/Sponsors/ExtraHop.png' alt='ExtraHop logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/GEDigital.png' alt='GE Digital logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Google.png' alt='Google logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/GPSS.png' alt='GPSS logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/HBO.png' alt='HBO logo'></img>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <img src='/img/Sponsors/HUB.png' alt='HUB logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Hulu.png' alt='Hulu logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/iSchool.png' alt='iSchool logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/KPMG.png' alt='KPMG logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/LibertyMutual.png' alt='Liberty Mututal logo'></img>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <img src='/img/Sponsors/Microsoft.png' alt='Microsoft logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Nordstrom.png' alt='Nordstrom logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Okta.png' alt='Okta logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Oracle.png' alt='Oracle logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/PWC.png' alt='PWC logo'></img>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <img src='/img/Sponsors/SageBionetworks.png' alt='Sage Bionetworks logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/SAO.png' alt='UW Student Activities Office logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Smartsheet.png' alt='Smartsheet logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Ticketmaster.png' alt='Ticketmaster logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Tune.png' alt='Tune logo'></img>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <img src='/img/Sponsors/UWAlumni.png' alt='UW Alumni Association logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/Visa.png' alt='Visa logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/WellsFargo.png' alt='Wellsfargo logo'></img>
+            </div>
+            <div className='col'>
+              <img src='/img/Sponsors/WestMonroe.png' alt='West Monroe logo'></img>
+            </div>
+            <div className='col'>
+              <img src='' alt=''></img>
+            </div>
+          </div>
         </div>
 
       </div>
