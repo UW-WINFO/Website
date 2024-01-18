@@ -63,7 +63,7 @@ header .page-title {
 }
 
 /* home page  */
-#informatics img, #mission img {
+#informatics img, #mission img, #support-about img {
   width: 100%;
 }
 
@@ -75,7 +75,7 @@ header .page-title {
   padding: 80px 0;
 }
 
-#informatics, #mission {
+#informatics, #mission{
   gap: 100px;
 }
 
@@ -165,7 +165,6 @@ hr {
   border: 0;
   height: 1px;
   background-color: #ccc;
-  margin: 20px 0;
 }
 
 .purple {
@@ -233,7 +232,7 @@ hr {
 }
 
 #sponsor-banner {
-  background: url('event-banner.png');
+  background: url('support-banner.png');
   background-size: cover;
   background-position: center;
 }
@@ -368,14 +367,27 @@ button {
   background-color: lightgray;
 }
 
+/* sponsor page  */
 .past-sponsors {
   background: url("../past_sponsors.png") ;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
- 
 }
 
+#support-about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#support-about .row, #sponsor-tier .row, #other-sponsorship .row {
+  gap: 50px;
+}
+
+#support h3 {
+  font-weight: 600;
+}
 
 /* hackathon page  */
 #hackathon-faq .row, #hackathon-about .row {
@@ -408,7 +420,7 @@ button {
   margin: 0;
 }
 
-#hackathon hr {
+#hackathon hr, #support hr {
   margin: 75px 0;
 }
 
