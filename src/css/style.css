@@ -1,9 +1,13 @@
-#root {
+/* #root {
   margin-bottom: 100px;
-}
+} */
 
 body {
     font-family: 'Figtree', sans-serif;
+}
+
+#menu-icon {
+  display: none;
 }
 
 header .page-title {
@@ -45,7 +49,7 @@ header .page-title {
 }
 
 .navbar-col {
-  max-width: 20%;
+  max-width: 220px;
 }
 
 .navlink {
@@ -67,35 +71,32 @@ header .page-title {
   width: 100%;
 }
 
-#home p {
+#support-about .description {
+  display: flex;
+  align-items: center;
+}
+
+#about-us p, #informatics p, #mission p, #history p {
   font-size: 20px;
 }
 
-#about-us, #informatics, #mission, #history {
+#about-us, #informatics, #mission {
   padding: 80px 0;
 }
 
-#informatics, #mission{
+#informatics, #mission {
   gap: 100px;
 }
 
 #history img {
   margin-top: 30px;
-  max-width: 600px;
+  width: 50%;
 }
 
 #informatics .description, #mission .description {
   display: flex;
   align-items: center;
 }
-
-#informatics .description {
-  margin-right: 100px;
-}
-
-/* #mission .description {
-  margin-left: 100px;
-} */
 
 /* Hover effects */
 .navlink:hover, .navbar-list:hover, a:hover {
@@ -109,10 +110,6 @@ header .page-title {
 }
 
 /* other stuff */
-.banner {
-  margin-bottom: 50px;
-}
-
 .col {
   padding: 0;
 }
@@ -122,12 +119,7 @@ header .page-title {
 }
 
 .container {
-  padding: 0;
-}
-
-#events {
-  margin-top: 60px;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .event-row {
@@ -165,6 +157,7 @@ hr {
   border: 0;
   height: 1px;
   background-color: #ccc;
+  margin: 75px 0;
 }
 
 .purple {
@@ -192,6 +185,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .banner h1 {
@@ -199,6 +193,7 @@ hr {
   font-size: 60px;
   margin-top: 10px;
   font-weight: 600;
+  text-align: center;
 }
 
 #uw-banner {
@@ -237,7 +232,7 @@ hr {
   background-position: center;
 }
 
-figcaption {
+figcaption, #copyright {
   color: #717171;
   font-size: 14px;
   margin-top: 5px;
@@ -302,7 +297,6 @@ button {
 
 .center p {
   max-width: 950px;
-  margin: 0px 50px;
   text-align: center;
 }
 
@@ -432,10 +426,6 @@ button {
   margin: 0;
 }
 
-#hackathon hr, #support hr {
-  margin: 75px 0;
-}
-
 .navbar-list {
   position: sticky;
   top: 20px;
@@ -448,10 +438,137 @@ button {
   margin-top: 15px;
 }
 
+/* footer */
+footer {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+footer .row {
+  width: 80%;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 150px;
+  margin-bottom: 25px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 4px 0;
+  color: #FD9193;
+  text-align: left;
+  border-radius: 0;
+}
+
+#quick-links p {
+  font-weight: 600;
+  color: #8192D1;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
+  #navbar {
+    padding: 12px 0;
+    width: 90%;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  footer {
+    padding: 25px 0;
+  }
+
+  footer .row {
+    width: 90%;
+    display: block;
+  }
+
+  .col-7, .col-3, .col-9 {
+    max-width: 100%;
+  }
+
+  #winfo-logo, footer img {
+    width: 70px;
+  }
+
+  .banner h1 {
+    font-size: 50px;
+    line-height: 95%;
+    margin: 0 30px;
+  }
+
+  #hackathon h2 {
+    font-size: 16px;
+  }
+
+  #hackathon h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  #hackathon > .container {
+    padding: 0;
+  }
+
+  #uw-banner {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  #title-banner {
+    height: 300px;
+  }
+
+  .banner {
+    height: 200px;
+    margin-bottom: 25px;
+  }
+
+  .links, .navbar-col {
+    display: none;
+  }
+
+  hr {
+    margin: 40px 0;
+  }
+
+  .spacer {
+    height: 40px;
+  }
+
+  iframe, #history img {
+    width: 100%;
+  }
+
   .row {
     flex-direction: column; /* Stack columns on smaller screens */
+    max-width: 100%;
   }
 
   .col {
@@ -461,29 +578,44 @@ button {
   .event-row {
     flex-direction: column;
   }
+
   #events .col {
     width: 100%; /* Make each column take full width on smaller screens */
   }
-  
 
-  .navbar-col {
-    flex-direction: row; /* Switch to rows on smaller screens */
-  }
-
-  .navbar-list {
-    flex-direction: row;
-    width: 100%; 
-    justify-content: space-between;
-  }
-  .navbar-list p {
-    display: inline-block;
-    margin-right: 10px; /* Add spacing between items in rows */
-    margin-bottom: 0;
-  }
   .accordion-content {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
     margin-bottom: 15px;
+  }
+
+  .title, .section-title {
+    font-size: 35px;
+  }
+
+  #hackathon-past .row, #hackathon-faq .row, #support-about .row, #support-about, #sponsor-tier .row, #other-sponsorship .row, #informatics, #mission, #hackathon-upcoming .row, #hackathon-past .row, .event-row {
+    gap: 0;
+  }
+
+  #past-sponsors .col {
+    width: 50%;
+  }
+
+  #about-us, #informatics, #mission {
+    padding: 30px 0;
+  }
+
+  #about-us p, #informatics p, #mission p, #history p, .home-link, p, .accordion-btn {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  #home .text-description {
+    text-align: left;
+  }
+
+  #about-us, #informatics {
+    padding-bottom: 0;
   }
 }

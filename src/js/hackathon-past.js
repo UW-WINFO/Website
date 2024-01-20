@@ -4,9 +4,9 @@ export function HackathonPast(props) {
         
   return (
   <div id='hackathon-past'>
-    <h2 className=''>Past Hackathons</h2>
-    <h3 className='purple subtitle'>WINFO's 11th Annual Hackathon: Reframe, Build, Innovate Onwards (2023)</h3>
     <div className='container container-right'>
+      <h2 className=''>Past Hackathons</h2>
+      <h3 className='purple subtitle'>WINFO's 11th Annual Hackathon: Reframe, Build, Innovate Onwards (2023)</h3>
       <div className='row'>
         <div className='col'>
           <img src="/img/hackathon-2023.png" alt="WINFO's 11th Annual Hackathon logo"/>
@@ -33,8 +33,8 @@ export function HackathonPast(props) {
 
     <div className='spacer'/>
 
-    <h3 className='purple subtitle'>WINFO's 10th Annual Hackathon: Embracing the New (2022)</h3>
     <div className='container container-left'>
+      <h3 className='purple subtitle'>WINFO's 10th Annual Hackathon: Embracing the New (2022)</h3>
       <div className='row'>
         <div className='col'>
           <p className='description'>
@@ -60,8 +60,8 @@ export function HackathonPast(props) {
 
     <div className='spacer'/>
         
-    <h3 className='purple subtitle'>WINFO's 9th Annual Hackathon: Hacking Forward, Together (2021)</h3>
     <div className='container container-right'>
+      <h3 className='purple subtitle'>WINFO's 9th Annual Hackathon: Hacking Forward, Together (2021)</h3>
       <div className='row'>
         <div className='col'>
           <img src="/img/hackathon-2021.png" alt="WINFO's 9th Annual Hackathon logo"/>
@@ -85,8 +85,8 @@ export function HackathonPast(props) {
 
     <div className='spacer'/>
 
-    <h3 className='purple subtitle'>WINFO's 8th Annual Hackathon: Driven by Difference (2020)</h3>
     <div className='container container-left'>
+      <h3 className='purple subtitle'>WINFO's 8th Annual Hackathon: Driven by Difference (2020)</h3>
       <div className='row'>
         <div className='col'>
           <p className='description'>
@@ -113,8 +113,8 @@ export function HackathonPast(props) {
 
     <div className='spacer'/>
 
-    <h3 className='purple subtitle'>WINFO's 7th Annual Hackathon: A World of Difference (2019)</h3>
     <div className='container container-right'>
+      <h3 className='purple subtitle'>WINFO's 7th Annual Hackathon: A World of Difference (2019)</h3>
       <div className='row'>
         <div className='col'>
           <img src="/img/hackathon-7th-3.jpeg" alt="WINFO's 7th Annual Hackathon photobooth"/>
@@ -139,8 +139,8 @@ export function HackathonPast(props) {
 
     <div className='spacer'/>
 
-    <h3 className='purple subtitle'>WINFO's 6th Annual Hackathon: What Does Diversity Mean to You? (2018)</h3>
     <div className='container container-left'>
+      <h3 className='purple subtitle'>WINFO's 6th Annual Hackathon: What Does Diversity Mean to You? (2018)</h3>
       <div className='row'>
         <div className='col'>
           <p className='description'>
@@ -164,8 +164,8 @@ export function HackathonPast(props) {
 
     <div className='spacer'/>
 
-    <h3 className='purple subtitle'>WINFO's 5th Annual Hackathon (2017)</h3>
     <div className='container container-right'>
+      <h3 className='purple subtitle'>WINFO's 5th Annual Hackathon (2017)</h3>
       <div className='row'>
         <div className='col'>
           <img src="/img/hackathon-5th.png" alt="WINFO's 5th Annual Hackathon photobooth"/>
@@ -190,8 +190,8 @@ export function HackathonPast(props) {
 
     <div className='spacer'/>
 
-    <h3 className='purple subtitle'>WINFO's 4th Annual Hackathon (2016)</h3>
     <div className='container container-left'>
+      <h3 className='purple subtitle'>WINFO's 4th Annual Hackathon (2016)</h3>
       <div className='row'>
         <div className='col'>
           <p className='description'>

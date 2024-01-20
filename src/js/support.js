@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { NavBar } from './navbar'
-
+import { Footer } from './footer'
 
 export function Support(props) {
   window.scrollTo(0, 0);
@@ -80,7 +80,6 @@ export function Support(props) {
               </ul>
             </div>
           </div>
-          <br/><br/>
           <div className='row'>
             <div className='col'>
               <h3 className='purple'>Gold</h3>
@@ -125,11 +124,13 @@ export function Support(props) {
               creativity. You can help by powering the hackathon with meals, snacks, or refreshments. (College students love pizza).
               </p>
             </div>
+          </div>
+          <div className='row'>
             <div className='col description'>
               <h3 className='purple'>Swag</h3>
               <p>
               Swag is always a great perk to attending a Hackathon. This can be in the form of t-shirts, stickers, mugs, pens, notebooks,
-              etc. If you have enough swag to give to a good portion of our participants (~150 students), it would be a great
+              etc. If you have enough swag to give to a good portion of our participants (~200 students), it would be a great
               item to bring! This is another way to ensure that participants have exposure to your brand.
               </p>
             </div>
@@ -164,8 +165,6 @@ export function Support(props) {
             <div className='col'>
               <img src='/img/Sponsors/ASUW.png' alt='ASUW logo'></img>
             </div>
-          </div>
-          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/ATT.png' alt='AT&T logo'></img>
             </div>
@@ -178,11 +177,11 @@ export function Support(props) {
             <div className='col'>
               <img src='/img/Sponsors/Deloitte.png' alt='Deloitte logo'></img>
             </div>
+          </div>
+          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/Disney.png' alt='Disney logo'></img>
             </div>
-          </div>
-          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/ExtraHop.png' alt='ExtraHop logo'></img>
             </div>
@@ -198,8 +197,6 @@ export function Support(props) {
             <div className='col'>
               <img src='/img/Sponsors/HBO.png' alt='HBO logo'></img>
             </div>
-          </div>
-          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/HUB.png' alt='HUB logo'></img>
             </div>
@@ -209,14 +206,14 @@ export function Support(props) {
             <div className='col'>
               <img src='/img/Sponsors/iSchool.png' alt='iSchool logo'></img>
             </div>
+          </div>
+          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/KPMG.png' alt='KPMG logo'></img>
             </div>
             <div className='col'>
               <img src='/img/Sponsors/LibertyMutual.png' alt='Liberty Mututal logo'></img>
             </div>
-          </div>
-          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/Microsoft.png' alt='Microsoft logo'></img>
             </div>
@@ -232,14 +229,14 @@ export function Support(props) {
             <div className='col'>
               <img src='/img/Sponsors/PWC.png' alt='PWC logo'></img>
             </div>
-          </div>
-          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/SageBionetworks.png' alt='Sage Bionetworks logo'></img>
             </div>
             <div className='col'>
               <img src='/img/Sponsors/SAO.png' alt='UW Student Activities Office logo'></img>
             </div>
+          </div>
+          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/Smartsheet.png' alt='Smartsheet logo'></img>
             </div>
@@ -249,8 +246,6 @@ export function Support(props) {
             <div className='col'>
               <img src='/img/Sponsors/Tune.png' alt='Tune logo'></img>
             </div>
-          </div>
-          <div className='row'>
             <div className='col'>
               <img src='/img/Sponsors/UWAlumni.png' alt='UW Alumni Association logo'></img>
             </div>
@@ -266,10 +261,14 @@ export function Support(props) {
             <div className='col'>
               <img src='' alt=''></img>
             </div>
+            <div className='col'>
+              <img src='' alt=''></img>
+            </div>
           </div>
         </div>
-
       </div>
+
+      <Footer handleClickHome={props.handleClickHome} handleClickHackathon={props.handleClickHackathon} handleClickEvents={props.handleClickEvents} handleClickTeam={props.handleClickTeam} handleClickSupport={props.handleClickSupport}/>
     </div>
   );
 }

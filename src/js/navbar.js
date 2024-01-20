@@ -12,6 +12,7 @@ export function NavBar(props) {
         <div className="logo">
           {navImg()}
         </div>
+        <i id='menu-icon' class="fa-solid fa-bars"></i>
         <ul className='links'>
           <li>
             <button className="navlink home hover1 hover1-1"

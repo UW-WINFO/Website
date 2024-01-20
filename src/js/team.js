@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { NavBar } from './navbar'
+import { Footer } from './footer'
 
 
 export function Team(props) {
@@ -113,7 +114,7 @@ export function Team(props) {
   };
 
     return (
-    <div className='team' >
+      <div className='team' >
         <NavBar handleClickHome={props.handleClickHome} handleClickHackathon={props.handleClickHackathon} handleClickEvents={props.handleClickEvents} handleClickTeam={props.handleClickTeam} handleClickSupport={props.handleClickSupport}/>
         <div id="team-banner" className="banner center">
           <h1>Our Officer Team</h1>
@@ -125,6 +126,7 @@ export function Team(props) {
             }
         </div>
 
-    </div>
- );
+        <Footer handleClickHome={props.handleClickHome} handleClickHackathon={props.handleClickHackathon} handleClickEvents={props.handleClickEvents} handleClickTeam={props.handleClickTeam} handleClickSupport={props.handleClickSupport}/>
+      </div>
+    );
 }

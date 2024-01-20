@@ -6,6 +6,7 @@ import { HackathonAbout } from './hackathon-about';
 import { HackathonFAQ } from './hackathon-faq';
 import { HackathonUpcoming } from './hackathon-upcoming';
 import { HackathonPast } from './hackathon-past';
+import { Footer } from './footer'
 
 
 export function Hackathon(props) {
@@ -40,6 +41,8 @@ export function Hackathon(props) {
           </div>
         </div>
       </div>
+
+      <Footer handleClickHome={props.handleClickHome} handleClickHackathon={props.handleClickHackathon} handleClickEvents={props.handleClickEvents} handleClickTeam={props.handleClickTeam} handleClickSupport={props.handleClickSupport}/>
   </div>
  );
 }

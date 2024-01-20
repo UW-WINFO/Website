@@ -4,9 +4,9 @@ export function HackathonFAQ(props) {
         
   return (
   <div id='hackathon-faq' >
-    <h2 className='blue title'>FAQ</h2>
-    <h3 className='purple subtitle'>Common Hackathon Questions</h3>
     <div className='container'>
+      <h2 className='blue title'>FAQ</h2>
+      <h3 className='purple subtitle'>Common Hackathon Questions</h3>
       <div className='row'>
         <div className='col'>
           <p className='question pink'>Do I need to know how to code?</p>

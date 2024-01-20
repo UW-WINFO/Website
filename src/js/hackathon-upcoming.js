@@ -4,9 +4,9 @@ export function HackathonUpcoming(props) {
         
   return (
     <div id='hackathon-upcoming' >
-      <h2 className=''>Upcoming Hackathon</h2>
-      <h3 className='purple title'>WINFO's 12th Annual Hackathon: Infinite Possibilities, Infinite Solutions (2024)</h3>
       <div className='container container-left'>
+        <h2 className=''>Upcoming Hackathon</h2>
+        <h3 className='purple title'>WINFO's 12th Annual Hackathon: Infinite Possibilities, Infinite Solutions (2024)</h3>
         <div className='row'>
           <div className='col'>
             <p className='description'>
