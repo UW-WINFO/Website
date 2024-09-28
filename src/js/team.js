@@ -13,9 +13,20 @@ export function Team(props) {
 
     window.scrollTo(0, 0);
     
-    const years = ["2023-2024","2022-2023","2021-2022","2020-2021","2019-2020", "2018-2019", "2017-2018", "2016-2017"]
+    const years = ["2024-2025","2023-2024","2022-2023","2021-2022","2020-2021","2019-2020", "2018-2019", "2017-2018", "2016-2017"]
 
     const teamMembers = [
+        { year: "2024-2025", name: 'Hannah Yi', position: 'Co-President', imageUrl: '/img/Officers/Officers/2024_Officers/Hannah.JPG' },
+        { year: "2024-2025", name: 'Daphne He', position: 'Co-President', imageUrl: '/img/Officers/Officers/2024_Officers/Daphne.PNG' },
+        { year: "2024-2025", name: 'Angela Qi', position: 'Director of Finance', imageUrl: '/img/Officers/Officers/2024_Officers/Angela.HEIC' },
+        { year: "2024-2025", name: 'Nila Ragu', position: 'Director of Public Relations', imageUrl: '/img/Officers/Officers/2024_Officers/Nila.JPG' },
+        { year: "2024-2025", name: 'Samrutha Babu', position: 'Creative Director', imageUrl: '/img/Officers/Officers/2024_Officers/Samrutha.jpeg' },
+        { year: "2024-2025", name: 'Mayory Ajpop', position: 'Director of Outreach', imageUrl: '' },
+        { year: "2024-2025", name: 'Theophila Abigail Setiawan', position: 'Director of Diversity Efforts', imageUrl: '/img/Officers/Officers/2024_Officers/Abigail.jpg' },
+        { year: "2024-2025", name: 'Anushka Verma', position: 'Director of Community Efforts', imageUrl: '/img/Officers/Officers/2024_Officers/Anushka.jpg' },
+        { year: "2024-2025", name: 'Pournami Varma', position: 'Hackathon Director', imageUrl: '/img/Officers/Officers/2024_Officers/Pournami.jpg' },
+        { year: "2024-2025", name: 'June Mi Hong', position: 'Creative Events Director', imageUrl: '/img/Officers/Officers/2024_Officers/June.JPG' },
+
         { year: "2023-2024", name: 'Roshni Srikanth', position: 'Co-President', imageUrl: '/img/Officers/Officers/2023_Officers/Roshni.jpg' },
         { year: "2023-2024", name: 'Lucy Lin', position: 'Co-President', imageUrl: '/img/Officers/Officers/2023_Officers/Lucy.jpeg' },
         { year: "2023-2024", name: 'Annie Tu', position: 'Director of Finance', imageUrl: '/img/Officers/Officers/2023_Officers/Annie.jpg' },
